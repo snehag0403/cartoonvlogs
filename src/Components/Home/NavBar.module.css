@@ -1,0 +1,124 @@
+/* NavBar.module.css */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .topHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .headingContainer {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .authContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authButton {
+    margin-right: 15px;
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .authButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .UserContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .userName {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .bottomHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  .bottomHeader span,
+  .bottomHeader label {
+    margin-right: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .CreatedBy {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .selectContainer {
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .CreatedBy label {
+    margin-right: 5px;
+  }
+  
+  .bottomHeader input[type="date"],
+  .bottomHeader input[type="text"] {
+    padding: 5px 25px 5px 10px; /* Adjust padding to make space for icons */
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  .SearchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .SearchContainer input[type="text"] {
+    padding: 5px 25px 5px 10px; /* Adjust padding to make space for icon */
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .SearchContainer svg,
+  .CreatedBy svg {
+    position: absolute;
+    right: 10px;
+    pointer-events: none;
+    color: #555;
+  }

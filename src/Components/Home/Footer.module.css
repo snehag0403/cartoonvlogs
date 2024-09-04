@@ -1,0 +1,87 @@
+/* Footer.module.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lastcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .lastcontent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .trainingBlog,
+  .category,
+  .contact,
+  .social {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .trainingBlog h3,
+  .category h3,
+  .contact h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .trainingBlog p {
+    font-size: 0.875em;
+    line-height: 1.6;
+  }
+  
+  .category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category ul li {
+    font-size: 0.875em;
+    margin-bottom: 5px;
+  }
+  
+  .contact span {
+    display: block;
+    font-size: 0.875em;
+    margin-bottom: 5px;
+  }
+  
+  .social span {
+    font-size: 0.875em;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .lastcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lastcontent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trainingBlog,
+    .category,
+    .contact,
+    .social {
+      margin: 10px 0;
+    }
+  }
+  
